@@ -4,7 +4,7 @@ A VPS at Tencent Cloud.
 
 - 1 core of AMD EPYC 7K62 48-Core Processor
 
-- 1GB RAM
+- 1 GB RAM
 
 - Ubuntu 18.04
 
