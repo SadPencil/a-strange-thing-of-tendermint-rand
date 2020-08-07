@@ -71,3 +71,10 @@ runtime.goexit()
         /usr/lib/go/src/runtime/asm_amd64.s:1373 +0x1 fp=0xc000064fe8 sp=0xc000064fe0 pc=0x45c941
 ```
 
+## Solution
+
+I figured it out.
+
+There is nothing to do with GC. Just a careless mistake.
+
+https://github.com/tendermint/tendermint/pull/5215
