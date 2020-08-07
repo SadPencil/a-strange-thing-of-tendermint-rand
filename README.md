@@ -1,22 +1,26 @@
 ## Environment
 
-An VPS at Tencent Cloud.
+A VPS at Tencent Cloud.
 
-1 core of AMD EPYC 7K62 48-Core Processor
+- 1 core of AMD EPYC 7K62 48-Core Processor
 
-1GB RAM
+- 1GB RAM
 
-Ubuntu 18.04
+- Ubuntu 18.04
 
-Linux VM-0-125-ubuntu 4.15.0-88-generic #88-Ubuntu SMP Tue Feb 11 20:11:34 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+- Linux VM-0-125-ubuntu 4.15.0-88-generic #88-Ubuntu SMP Tue Feb 11 20:11:34 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
 
-go version go1.14.7 linux/amd64
+- go version go1.14.7 linux/amd64
 
 ## Code
 
 See `main.go` file.
 
-## Result
+## Result that I expected
+
+The program runs forever, without an out-of-memory error.
+
+## Result that actually happened
 
 ```
 tick-tock 47854 0xc000010010
